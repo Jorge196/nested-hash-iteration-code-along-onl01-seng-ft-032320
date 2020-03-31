@@ -26,7 +26,12 @@ def remove_strawberry(contacts)
       email: "freddy@mercury.com",
       favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]}
     }
-end
+  end
 
 def remove_strawberry(contacts)
-  contacts.each do |
+  contacts.each do |attribute, data|
+    if attribute == :favorite_ice_cream_flavors 
+      data.delete_if { |ice_cream| ice_cream == "strawberry"}
+    end 
+
+end 
