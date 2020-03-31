@@ -22,5 +22,8 @@ def remove_strawberry(contacts)
     favorite_ice_cream_flavors: ["chocolate", "vanilla"]
     },
     "Freddy Mercury" => {
-      name: "Freddy", }}
+      name: "Freddy", 
+      email: "freddy@mercury.com", 
+      favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]}
+    }
 end
